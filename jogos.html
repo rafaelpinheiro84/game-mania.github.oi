@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamen Mania</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <header id="header"> 
+        <a id="logo" href="index.html"><img src="img/logo.png" alt=""></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-activedescendant="false">
+                <span id="hamburger"></span>
+               
+               </button>
+            <ul id="menu" role="menu">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                <li>
+                    <a class="menu" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a  class="menu" href="jogos.html">Jogos</a>
+                </li>
+                <li>
+                    <a class="menu" href="pcgames.html">Pc Game</a>
+                </li>
+                <li>
+                    <a class="menu" href="galeria.html"><img src="img/camera.png" alt=" "></a>
+                </li>
+                <li>
+                    <a class="menu" href="login.html"><img src="img/entrar 1.png" alt=" "></a>
+                </li>
+                <li>
+                    <a class="menu" href="index.html"><img src="img/carrinho 3.png" alt=" ">
+                        <span id="marcador" 
+                        style="font-size: 12px; color: black; display: flex; margin-top: -40px; margin-left: 15px;">
+                        0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner-2">
+        <img src="img/banner2.png" class="img-fluid" alt="logo do banner">
+    </div> 
+    <!--sessão jogos ps5-->
+    <h1 class="ps5">PLAYSTATION 5</h1>
+        
+    <section class="jogos-5">
+       <div class="sessão-ps5">
+           <img class="img-ps5" src="img/renatural-ps5 1.png" alt="">
+           <a href="#"><p>Returnal PS5</p></a>
+           <a class="valor" href="#">R$251,25</a>
+           <div class="botões">
+        <a href="#"><button type="button" class="btn btn-outline-primary click">
+                comprar
+            </button></a>
+        </div>
+        <div class="botoões">
+            <a href="#"><button onclick="contarProdutos()"  type="button" class="btn btn-outline-primary click">
+                adicionar
+            </button></a>
+
+        </div>
+       </div>
+        
+       <div class="sessão-ps5">
+           <img class="img-ps5" src="img/village-ps5.png" alt="">
+           <a href="#"><p>Village Ps5</p></a>
+           <a class="valor" href="#">R$149,99</a>
+           <div class="botões">
+            <a href="#"><button type="button" class="btn btn-outline-primary click">
+                comprar
+            </button></a>
+        </div>
+        <div class="botoões">
+            <a href="#"><button onclick="contarProdutos()"  type="button" class="btn btn-outline-primary click">
+                adicionar
+            </button></a>
+
+        </div>
+       </div>
+        
+       <div class="sessão-ps5">
+           <img class="img-ps5" src="img/f1-ps5 1.png" alt="">
+           <a href="#"><p>Gran Turismo 7 - ps5</p></a>
+           <a class="valor" href="#">R$ 290,31</a>
+           <div class="botões">
+            <a href="#"><button onclick="contarProdutos()"  type="button" class="btn btn-outline-primary click">
+                comprar
+            </button></a>
+        </div>
+        <div class="botoões">
+            <a href="#"><button onclick="contarProdutos()"  type="button" class="btn btn-outline-primary click">
+                adicionar
+            </button></a>
+
+        </div>
+       </div>
+        
+       <div class="sessão-ps5">
+           <img class="img-ps5" src="img/homearranha-ps5.png" alt="">
+           <a href="#"><p> Spider-Man - ps5</p></a>
+           <a class="valor" href="#">R$ 179,90</a>
+           <div class="botões">
+            <a href="#"><button type="button" class="btn btn-outline-primary click">
+                comprar
+            </button></a>
+        </div>
+        <div class="botoões">
+            <a href="#"><button onclick="contarProdutos()"  type="button" class="btn btn-outline-primary click">
+                adicionar
+            </button></a>
+
+        </div>
+       </div>
+        
+       <div class="sessão-ps5">
+           <img class="img-ps5" src="img/nba-ps5.png" alt="">
+           <a href="#"><p>NBA 2K21 - ps5</p></a>
+           <a class="valor" href="#">R$ 189,90</a>
+           <div class="botões">
+            <a href="#"><button type="button" class="btn btn-outline-primary click">
+                comprar
+            </button></a>
+        </div>
+        <div class="botoões">
+            <a href="#"><button onclick="contarProdutos()"  type="button" class="btn btn-outline-primary click">
+                adicionar
+            </button></a>
+        </div>
+       </div>
+    </section>
+
+    <!--sessão jogos ps4-->
+
+    <h2 class="ps4">PLAYSTATION 4</h2>
+    <section class="jogos-4">
+        <div class="sessão-ps4">
+            <img class="img-ps4" src="img/fortiniteps4.png" alt="">
+            <a href="#"><p>Fortnite-ps4</p></a>
+            <a class="valor" href="#">R$ 179,10</a>
+            <div class="botões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    comprar
+                </button></a>
+            </div>
+            <div class="botoões">
+                <a href="#"><button onclick="contarProdutos()"  type="button" class="btn btn-outline-primary click">
+                    adicionar
+                </button></a>
+            </div>
+        </div>
+        <div class="sessão-ps4">
+            <img class="img-ps4" src="img/a war out-ps4 1.png" alt="">
+            <a href="#"><p>A Way Out - Ps4</p></a>
+            <a class="valor" href="#">R$ 78,00</a>
+            <div class="botões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    comprar
+                </button></a>
+            </div>
+            <div class="botoões">
+                <a href="#"><button onclick="contarProdutos()"  type="button" class="btn btn-outline-primary click">
+                    adicionar
+                </button></a>
+            </div>
+        </div>
+        <div class="sessão-ps4">
+            <img class="img-ps4" src="img/infitte-ps4 1.png" alt="">
+            <a href="#"><p>Call Of Duty  Ps4</p></a>
+            <a class="valor" href="#">R$ 189,90</a>
+            <div class="botões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    comprar
+                </button></a>
+            </div>
+            <div class="botoões">
+                <a href="#"><button onclick="contarProdutos()"  type="button" class="btn btn-outline-primary click">
+                    adicionar
+                </button></a>
+            </div>
+        </div>
+        <div class="sessão-ps4">
+            <img class="img-ps4" src="img/spider-man -ps4 1 (1).png" alt="">
+            <a href="#"><p>Spider-man  Ps4</p></a>
+            <a class="valor" href="#">R$ 139,00</a>
+            <div class="botões">
+                <a href="#"><button   type="button" class="btn btn-outline-primary click">
+                    comprar
+                </button></a>
+            </div>
+            <div class="botoões">
+                <a href="#"> <button onclick="contarProdutos()"  type="button" class="btn btn-outline-primary click">
+                    adicionar
+                </button></a>
+            </div>
+
+        </div>
+        <div class="sessão-ps4">
+            <img class="img-ps4" src="img/ghost-ps4.png" alt="">
+            <a href="#"><p>Ghost Of Tsushima</p></a>
+            <a class="valor" href="#">R$ 178,45</a>
+            <div class="botões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    comprar
+                </button></a>
+            </div>
+            <div class="botoões">
+                <a href="#"><button onclick="contarProdutos()"  type="button" class="btn btn-outline-primary click">
+                    adicionar
+                </button></a>
+            </div>
+        </div>
+    </section>
+
+    <!--sessão de jogos xbox one-->
+    <h3 class="xbox-one">
+        XBOX ONE</h3>
+
+    <section class="jogos-one">
+        <div class="sessão-xbox">
+            <img class="img-xbox" src="img/witcher-xboxone_ 1.png" alt=" ">
+            <a href=""><p>The Witcher 3</p></a>
+            <a class="valor" href="#">R$ 104,094</a>
+            <div class="botões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    comprar
+                </button></a>
+            </div>
+            <div class="botoões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    adicionar
+                </button></a>
+            </div>
+        </div>
+        <div class="sessão-xbox">
+            <img class="img-xbox" src="img/spider-xbox 1.png" alt=" ">
+            <a href=""><p>Spider-man 2</p></a>
+            <a class="valor" href="#">R$ 142,99</a>
+            <div class="botões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    comprar
+                </button></a>
+            </div>
+            <div class="botoões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    adicionar
+                </button></a>
+            </div>
+        </div>
+        <div class="sessão-xbox">
+            <img class="img-xbox" src="img/gearsofwar-xboxoner 1.png" alt=" ">
+            <a href=""><p>Gears of War 4</p></a>
+            <a class="valor" href="#">R$ 149,89</a>
+            <div class="botões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    comprar
+                </button></a>
+            </div>
+            <div class="botoões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    adicionar
+                </button></a>
+            </div>
+        </div>
+        <div class="sessão-xbox">
+            <img class="img-xbox" src="img/fifa22-xbox oner_ 1.png" alt=" ">
+            <a href=""><p>Fifa 22</p></a>
+            <a class="valor" href="#">R$ 239,90</a>
+            <div class="botões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    comprar
+                </button></a>
+            </div>
+            <div class="botoões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    adicionar
+                </button></a>
+            </div>
+        </div>
+        <div class="sessão-xbox">
+            <img class="img-xbox" src="img/deadrising3-xbox1 1.png" alt=" ">
+            <a href=""><p>Dead Rising 3</p></a>
+            <a class="valor" href="#">R$ 149,89</a>
+            <div class="botões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    comprar
+                </button></a>
+            </div>
+            <div class="botoões">
+                <a href="#"><button type="button" class="btn btn-outline-primary click">
+                    adicionar
+                </button></a>
+            </div>
+        </div>
+    </section>
+    <!--inicio do footer roda pé-->
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>sobre nós</h2>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, facilis, tenetur dolore architecto unde veniam non iste temporibus laudantium esse sit asperiores ipsa eaque corrupti quibusdam dolorem, error inventore. Dolor?</p>
+                
+                    <div class="social">
+                        <a href="#"><img src="img/facebook-brands.svg" alt=" "></a>
+                        <a href="#"><img src="img/twitter-brands.svg" alt=" "></a>
+                        <a href="#"><img src="img/instagram-brands.svg" alt=" "></a>
+                        <a href="#"><img src="img/youtube-brands.svg" alt=" "></a>
+                    </div>
+                </div>
+            </div><!--left box-->
+            <div class="center box">
+                <h2>Endereço</h2>
+                <div class="content">
+                    <div class="place">
+                       <a href="#"><img src="img/map-marker-solid.svg" alt=" "></a>
+                        <span class="text">Rua São bento,Centro SP</span>
+                    </div>
+    
+                    <div class="phone">
+                        <a href="#"><img src="img/phone-alt-solid.svg" alt=" "></a>
+                        <span class="text">+55 11 00000000</span>
+                    </div>
+    
+    
+                    <div class="email">
+                       <a href="#"><img src="img/envelope-solid.svg" alt=" "></a>
+                        <span class="text">exemplo@exemplo.com</span>
+                    </div>
+
+                </div>
+            
+            </div>
+            <div class="right box">
+                <h2>Contato</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input id="campo-email" type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Mensagem *</div>
+                            <textarea input id="campo-mensagem" type="mensagen" rows="2" cols="25" required></textarea>
+                        </div>
+                        <div class="btn-2">
+                            <button onclick="enviarEmail() ,enviarMensagem()">Enviar</button>
+                        </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div><!--main-content-->
+        <div class="bottom">
+            <div class="center">
+                <span class="credit">Criado por <a href="#">FRONT</a></span>
+                <span class="far fa-copyright">2021 Todos os direitos reservados</span>
+            </div>
+        </div>
+    </footer>  
+    
+     <script src="js/script.js"></script>
+</body>
+</html>
